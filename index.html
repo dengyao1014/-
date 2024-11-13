@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>玄机 - 专业运势分析平台</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-purple-800">玄机</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="hover:text-purple-600">特色</a>
+                    <a href="#how-it-works" class="hover:text-purple-600">使用方法</a>
+                    <a href="#pricing" class="hover:text-purple-600">价格</a>
+                    <a href="#faq" class="hover:text-purple-600">常见问题</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-8">探索你的命运密码</h1>
+            <p class="text-xl text-gray-600 mb-12">结合东方玄学与西方星座，为您提供专业的运势分析</p>
+            <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-xl p-8">
+                <form id="fortuneForm" class="space-y-6">
+                    <div>
+                        <input type="text" id="name" placeholder="您的姓名" required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-500 focus:border-transparent">
+                    </div>
+                    <div>
+                        <input type="date" id="birthdate" required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-500 focus:border-transparent">
+                    </div>
+                    <button type="submit"
+                        class="w-full bg-purple-600 text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                        开启运势解析
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">专业解析系统</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">紫微斗数</h3>
+                    <p class="text-gray-600">结合古老的紫微斗数理论，精准分析您的人生轨迹</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">易经八卦</h3>
+                    <p class="text-gray-600">运用易经智慧，揭示命运走向</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">星座占星</h3>
+                    <p class="text-gray-600">融合西方占星术，全方位解读您的运势</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works -->
+    <section id="how-it-works" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">使用流程</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-2xl font-bold text-purple-600 mb-4">1</div>
+                    <h3 class="text-xl font-semibold mb-2">输入信息</h3>
+                    <p class="text-gray-600">填写基本个人信息</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl font-bold text-purple-600 mb-4">2</div>
+                    <h3 class="text-xl font-semibold mb-2">智能分析</h3>
+                    <p class="text-gray-600">系统进行多维度解析</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl font-bold text-purple-600 mb-4">3</div>
+                    <h3 class="text-xl font-semibold mb-2">生成报告</h3>
+                    <p class="text-gray-600">获取详细运势报告</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl font-bold text-purple-600 mb-4">4</div>
+                    <h3 class="text-xl font-semibold mb-2">指导建议</h3>
+                    <p class="text-gray-600">获取个性化建议</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">服务价格</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-gray-50 rounded-2xl p-8 text-center">
+                    <h3 class="text-2xl font-bold mb-4">基础版</h3>
+                    <div class="text-4xl font-bold mb-6">¥68<span class="text-base font-normal">/次</span></div>
+                    <ul class="space-y-4 mb-8">
+                        <li>基础运势分析</li>
+                        <li>运势评级</li>
+                        <li>简单建议</li>
+                    </ul>
+                    <button class="bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                        选择方案
+                    </button>
+                </div>
+                <div class="bg-purple-600 text-white rounded-2xl p-8 text-center transform scale-105">
+                    <h3 class="text-2xl font-bold mb-4">专业版</h3>
+                    <div class="text-4xl font-bold mb-6">¥168<span class="text-base font-normal">/次</span></div>
+                    <ul class="space-y-4 mb-8">
+                        <li>详细运势分析</li>
+                        <li>运势评级与分数</li>
+                        <li>详细建议指导</li>
+                        <li>趋势预测</li>
+                    </ul>
+                    <button class="bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                        选择方案
+                    </button>
+                </div>
+                <div class="bg-gray-50 rounded-2xl p-8 text-center">
+                    <h3 class="text-2xl font-bold mb-4">尊享版</h3>
+                    <div class="text-4xl font-bold mb-6">¥368<span class="text-base font-normal">/次</span></div>
+                    <ul class="space-y-4 mb-8">
+                        <li>全方位运势分析</li>
+                        <li>专家一对一解读</li>
+                        <li>个性化改运方案</li>
+                        <li>全年运势预测</li>
+                    </ul>
+                    <button class="bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                        选择方案
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">常见问题</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">运势分析的准确度如何？</h3>
+                    <p class="text-gray-600">我们采用中西结合的专业分析系统，结合多种传统与现代理论，准确度较高。</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">如何保护我的个人信息？</h3>
+                    <p class="text-gray-600">我们采用严格的数据加密技术，确保您的个人信息安全。</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">运势分析需要多长时间？</h3>
+                    <p class="text-gray-600">基础分析在几分钟内完成，专业版和尊享版会更详细，可能需要24小时内完成。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">玄机</h4>
+                    <p class="text-gray-400">专业的运势分析平台</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">联系我们</h4>
+                    <p class="text-gray-400">邮箱：xzdengyao@gmail.com</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">快速链接</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#features">特色</a></li>
+                        <li><a href="#pricing">价格</a></li>
+                        <li><a href="#faq">常见问题</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">关注我们</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">微信</a>
+                        <a href="#" class="text-gray-400 hover:text-white">微博</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>© 2024 玄机. 版权所有 邓瑶</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 运势计算逻辑
+        document.getElementById('fortuneForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const birthdate = new Date(document.getElementById('birthdate').value);
+            
+            // 计算运势评级和分数
+            const score = calculateFortuneScore(name, birthdate);
+            const rating = getFortuneRating(score);
+            const recommendations = getRecommendations(score);
+            
+            // 显示结果
+            showFortuneResult(score, rating, recommendations);
+        });
+
+        function calculateFortuneScore(name, birthdate) {
+            // 基于姓名和生日的算法
+            const nameValue = Array.from(name).reduce((acc, char) => acc + char.charCodeAt(0), 0);
+            const dateValue = birthdate.getDate() + (birthdate.getMonth() + 1);
+            
+            // 复杂的计算公式，结合多个因素
+            const baseScore = ((nameValue * dateValue) % 100) + 1;
+            const zodiacInfluence = (birthdate.getMonth() + 1) * 3;
+            const dayInfluence = Math.sin(birthdate.getDate() * Math.PI / 30) * 10;
+            
+            return Math.floor(Math.abs(baseScore + zodiacInfluence + dayInfluence));
+        }
+
+        function getFortuneRating(score) {
+            if (score >= 90) return "大吉";
+            if (score >= 80) return "吉";
+            if (score >= 70) return "小吉";
+            if (score >= 60) return "平";
+            if (score >= 50) return "小凶";
+            return "凶";
+        }
+
+        function getRecommendations(score) {
+            const recommendations = {
+                宜: [],
+                忌: [],
+                理由: []
+            };
+
+            if (score >= 80) {
+                recommendations.宜 = ["投资理财", "谈判合作", "开展新项目"];
+                recommendations.忌 = ["贸然改变", "轻率决定"];
+                recommendations.理由 = ["五行相生，贵人相助", "紫气东来，财运亨通"];
+            } else if (score >= 60) {
+                recommendations.宜 = ["稳健发展", "循序渐进"];
+                recommendations.忌 = ["冒险投资", "激进行动"];
+                recommendations.理由 = ["中正平和，稳中求进", "守成为上，静待机会"];
+            } else {
+                recommendations.宜 = ["修身养性", "谨慎行事"];
+                recommendations.忌 = ["重大决策", "资金投入"];
+                recommendations.理由 = ["时运不济，需待时机", "暂避锋芒，蓄势待发"];
+            }
+
+            return recommendations;
+        }
+
+        function showFortuneResult(score, rating, recommendations) {
+            const resultHTML = `
+                <div class="bg-white p-8 rounded-2xl shadow-xl max-w-2xl mx-auto mt-8">
+                    <h3 class="text-2xl font-bold mb-4">运势分析结果</h3>
+                    <div class="space-y-4">
+                        <p class="text-xl">运势评级：<span class="font-bold text-purple-600">${rating}</span></p>
+                        <p class="text-xl">运势分数：<span class="font-bold text-purple-600">${score}</span></p>
+                        <div class="border-t pt-4">
+                            <p class="font-bold mb-2">宜：</p>
+                            <p class="text-gray-600">${recommendations.宜.join("、")}</p>
+                        </div>
+                        <div class="border-t pt-4">
+                            <p class="font-bold mb-2">忌：</p>
+                            <p class="text-gray-600">${recommendations.忌.join("、")}</p>
+                        </div>
+                        <div class="border-t pt-4">
+                            <p class="font-bold mb-2">理由：</p>
+                            <p class="text-gray-600">${recommendations.理由.join("；")}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // 在表单下方显示结果
+            const resultDiv = document.createElement('div');
+            resultDiv.innerHTML = resultHTML;
+            document.getElementById('fortuneForm').parentNode.appendChild(resultDiv);
+        }
+    </script>
+</body>
+</html>
